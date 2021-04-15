@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#leftheader {
+    margin-left: 15%;
+    margin-top: 0.938em;
+    display: block;
+}
+
+header h1  {
+    display: inline-block;
+    margin: left 0.625em;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+header p {
+    margin: left 3.125em;
+    font-size: .75em;
+    color: #adabab;;
+}
+
+#leftheader  img {
+    display: block;
+    float: left;
+}
+
+#rightheader {
+    position: relative;
+    margin-right: 15%;
+    float: right;
+}
+
+#rightheader img:nth-child(6){
+    margin-right: 0.5em;    
+}
+
+hr.rounded {
+    border-top: 0.5em solid #bbb;
+    border-radius: 0.313em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+#title{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#title h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#title p{
+    font-size: smaller;
+    color:#adabab;    ;
+}
+
+#title figure {
+    float: right;
+}
+
+#title figcaption {
+    display: inline-block; 
+    color:#adabab;
+
+}
+
+#mainimg {
+    margin-top: 2.5em;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#para {
+    margin-top: 1.25em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#para p {
+    text-indent: 1.875em;
+    color: #a8a59f;
+  }
+  
+main {
+    position: relative;
+}
+
+#checkbox {
+    color: #7e6754;
+    margin-top: 2.5em;
+    background-image:url(https://github.com/LTUC/amman-201d22/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true );
+    background-repeat: no-repeat;
+    height: 12.5em;
+    margin-left: 17%;
+    margin-right: 17%; 
+}
+
+#firsthalf{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+#sechalf {
+    margin-top: 5%;
+    display: inline-block;
+    float: right; 
+    margin-right: 10%;
+}
+ 
+#last {
+    height: 6.25em;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+}
+
+/* .last-right{
+    display: block;
+    float: left;
+}
+
+.button {
+    display: inline;
+    position: absolute;
+    float: right;
+    /* left:100px;
+    bottom: 50px; */
+} */
+
+button{
+    font-size: 1.25em;
+    position: relative;
+    /* float: right; */
+    top:12.5em;
+    border-style: none;
+    background-color:  #bc7058;
+    padding:20px;
+    margin: 20px;
+    font-size: 25px;
+    color: #ddd;
+  }
+  button:hover{
+    color: #ddd;
+    background-color:gray ;
+  }
+
+.left-last{
+    float: left;
+}
+
+#last img {
+    display: block;
+    float: left;
+}
+
+#last h1  {
+    display: inline-block;
+    margin: left 0.625em;
+}
+
+#last p {
+    margin: left 0.625em; ;   
+}
+
+#last img{
+    display: block;
+    float: left;
+
+}
+footer {
+    color:#a8a59f ;
+    height: 6.25em;
+    text-align: center;
+}
+
+/* Refrence https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 0.063em solid #ddd;
+  }
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
